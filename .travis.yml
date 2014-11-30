@@ -24,4 +24,5 @@ deploy:
   on:
     tags: true
     repo: firepick-delta/jansson
-    branch: mingw-w64
+#   branch: mingw-w64
+    all_branches: true
