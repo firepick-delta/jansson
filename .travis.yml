@@ -18,6 +18,7 @@ before_deploy:
   - zip jansson.zip -r .
 deploy:
   provider: releases
+  skip_cleanup: true
   api_key:
     secure: IwNh1YypYP41kGVajxWkN2SGJq1dyHL5TFAlSCOiJqAmIGAkJENarJppJKHnwni23f7rH2wOP1JX+mURMU/YjjD76Jssepp/tCx3anWtjKRbZL7b37DXPOPOJnYJsrUSta4i/FDZgwJgIAPvMvT1ohe5xsjS4g1k3wkcl0ZgcXM=
   file: jansson.zip
